@@ -11,8 +11,10 @@
             }
         </style>
     </head>
+    <header>Olá</header>
 
     <body>
+        <main>
         <form action="">
             <label>Nome
                 <input type="Nome" name="nome">
@@ -33,11 +35,35 @@
                 <input type="file" name="arquivos">
             </label>
             <label>Sexo</label>
-            <input type="radio" name="Sexo" value="Feminino">Ferminino</label>
+            <input type="radio" name="Sexo" value="Feminino">Feminino</label>
             <label>
                 <input type="radio" name="Sexo" value="Masculino">masculino</label>
+            <label>esportes</label>
+            <label><input type="checkbox" name="esporte" value="futebol">futebol</label>
+            <label><input type="checkbox" name="esporte" value="volei">Vôlei</label>
+            <label><input type="checkbox" name="esporte" value="Atletismo">Atletismo</label>
+            <label>UF</label>
+            <select name="UF">
+                <optgroup label="Cento-Oeste"></optgroup>
+                <option value="DF">DF</option>
+                <option value="GO">GO</option>
+                <option value="SC">SC</option>
+                <optgroup label="Sul"></optgroup>
+                <option value="PR">PR</option>
+                <option value="RS">RS</option>
+                <optgroup label="Sudeste"></optgroup>
+                <option value="MG">MG</option>
+                <option value="SP">SP</option>
+                <option value="RJ">RJ</option>
+            </select>
+            <label>Mensagem
+                <textarea name="mensagem" rows="5" cols="60"></textarea>
+            </label>
+            <input type="hidden" name="enviar dados ocultos">
+            <button type="submit">enviar</button>
+            </main>
         </form>
     </body>
-
+     <footer></footer>
     </html>
     <h
